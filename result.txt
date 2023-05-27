@@ -1,0 +1,146 @@
+- Iteration 1:
+Level One: (AccessCard => Granted)
+Accepted: 100
+Rejected: 0
+
+Level Two: (∀x∃y AccessCard(x,y) ^ Division(y) => Granted(x))
+Accepted: 88
+Rejected: 12
+
+Level Three: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) => Granted(x))
+Accepted: 77
+Rejected: 23
+
+Level Four: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) => Granted(x))
+Accepted: 76
+Rejected: 24
+
+Level Five: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) ^ Fingerprint(x) => Granted(x))
+Accepted: 72
+Rejected: 28
+
+- Iteration 2:
+Level One: (AccessCard => Granted)
+Accepted: 100
+Rejected: 0
+
+Level Two: (∀x∃y AccessCard(x,y) ^ Division(y) => Granted(x))
+Accepted: 88
+Rejected: 12
+
+Level Three: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) => Granted(x))
+Accepted: 76
+Rejected: 24
+
+Level Four: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) => Granted(x))
+Accepted: 73
+Rejected: 27
+
+Level Five: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) ^ Fingerprint(x) => Granted(x))
+Accepted: 72
+Rejected: 28
+
+- Iteration 3:
+Level One: (AccessCard => Granted)
+Accepted: 100
+Rejected: 0
+
+Level Two: (∀x∃y AccessCard(x,y) ^ Division(y) => Granted(x))
+Accepted: 90
+Rejected: 10
+
+Level Three: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) => Granted(x))
+Accepted: 79
+Rejected: 21
+
+Level Four: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) => Granted(x))
+Accepted: 76
+Rejected: 24
+
+Level Five: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) ^ Fingerprint(x) => Granted(x))
+Accepted: 72
+Rejected: 28
+
+- Iteration 4:
+Level One: (AccessCard => Granted)
+Accepted: 100
+Rejected: 0
+
+Level Two: (∀x∃y AccessCard(x,y) ^ Division(y) => Granted(x))
+Accepted: 88
+Rejected: 12
+
+Level Three: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) => Granted(x))
+Accepted: 76
+Rejected: 24
+
+Level Four: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) => Granted(x))
+Accepted: 74
+Rejected: 26
+
+Level Five: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) ^ Fingerprint(x) => Granted(x))
+Accepted: 72
+Rejected: 28
+
+- Iteration 5:
+Level One: (AccessCard => Granted)
+Accepted: 100
+Rejected: 0
+
+Level Two: (∀x∃y AccessCard(x,y) ^ Division(y) => Granted(x))
+Accepted: 84
+Rejected: 16
+
+Level Three: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) => Granted(x))
+Accepted: 77
+Rejected: 23
+
+Level Four: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) => Granted(x))
+Accepted: 74
+Rejected: 26
+
+Level Five: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) ^ Fingerprint(x) => Granted(x))
+Accepted: 72
+Rejected: 28
+
+- Iteration 6:
+Level One: (AccessCard => Granted)
+Accepted: 100
+Rejected: 0
+
+Level Two: (∀x∃y AccessCard(x,y) ^ Division(y) => Granted(x))
+Accepted: 94
+Rejected: 6
+
+Level Three: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) => Granted(x))
+Accepted: 90
+Rejected: 10
+
+Level Four: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) => Granted(x))
+Accepted: 80
+Rejected: 20
+
+Level Five: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) ^ Fingerprint(x) => Granted(x))
+Accepted: 72
+Rejected: 28
+
+- Iteration 7:
+Level One: (AccessCard => Granted)
+Accepted: 100
+Rejected: 0
+
+Level Two: (∀x∃y AccessCard(x,y) ^ Division(y) => Granted(x))
+Accepted: 90
+Rejected: 10
+
+Level Three: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) => Granted(x))
+Accepted: 79
+Rejected: 21
+
+Level Four: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) => Granted(x))
+Accepted: 75
+Rejected: 25
+
+Level Five: (∀x∃y AccessCard(x,y) ^ Division(y) ^ Worktime(x) ^ PIN(x) ^ Fingerprint(x) => Granted(x))
+Accepted: 72
+Rejected: 28
